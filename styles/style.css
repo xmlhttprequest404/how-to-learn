@@ -1,10 +1,3 @@
-/*.header div {
-  border: 1px solid red;
-}*/
-
-/*.content div, h2, span, p {
-  border: 1px solid red;
-}*/
 
 :root {
   --background-color_white: #f2f2f2;
@@ -31,7 +24,6 @@
   background-color: var(--background-color_white);
   z-index: 0;
   color: black;
-  /* выше установили ограничения для секции */
   display: flex;
 }
 
@@ -49,10 +41,10 @@
 
 .header__title {
   width: 730px;
+  align-self: center;
 }
 
 .header__title_position {
-  align-self: center;
   position: absolute;
   left: 64px;
   z-index: 3;
@@ -113,7 +105,8 @@
 }
 
 .content {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .description {
@@ -130,13 +123,14 @@
 
 .two-columns__brief {
   width: 175px;
+  color: var(--elements-color);
 }
 
 .two-columns__brief_font {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  color: var(--elements-color)
+  
 }
 
 .two-columns__main-text {
@@ -158,7 +152,12 @@
   color: black;
 }
 
-.two-columns__paragraph_margin {
+.margin-padding__reset {
+  margin: 0;
+  padding: 0;
+}
+
+.two-columns__margin {
   margin: 30px auto;
 }
 
@@ -177,7 +176,6 @@
 }
 
 .section__title_font {
-  margin: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -190,7 +188,6 @@
 }
 
 .section__subtitle_font {
-  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -344,7 +341,7 @@
 }
 
 .logo__place_footer {
-  
+  background-image: url(../images/logo_place_footer.svg);
 }
 
 .footer__author {
@@ -355,22 +352,24 @@
 }
 
 .footer__column_content_info {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column-heading {
-  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
 }
 
 .footer__column-links {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_social {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column-list_unmark {
