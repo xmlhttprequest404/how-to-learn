@@ -191,13 +191,8 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 0;
+  margin: 20px 0 0 0;
 }
-
-.table__text_margin-top {
-  margin-top: 20px;
-}
-
 
 .feynman {
   min-height: 890px;
@@ -205,7 +200,7 @@
   background-image: url(../images/feynman.png);
   background-position: left bottom;
   background-repeat: no-repeat;
-  background-size: 837px 637px;
+  background-size: 867px 637px;
   position: relative;
 }
 
@@ -262,9 +257,6 @@
 
 .table_theme_dark {
   margin-bottom: 90px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
 .table__cell_theme_dark {
@@ -279,6 +271,7 @@
   width: 877px;
   height: 877px;
   right: -210px;
+  top: 0;
   z-index: -1;
   background-image: url(../images/kaufman-triangle.svg);
   background-size: contain;
