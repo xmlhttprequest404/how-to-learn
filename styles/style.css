@@ -123,6 +123,10 @@
 }
 
 .two-columns__paragraph {
+  margin: 0 auto 30px auto;
+}
+
+.two-columns__paragraph:last-child {
   margin: 0;
 }
 
@@ -131,10 +135,6 @@
   font-size: 24px;
   font-weight: 600;
   color: black;
-}
-
-.two-columns__paragarph_margin {
-  margin: 30px auto;
 }
 
 .digits {
