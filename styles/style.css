@@ -292,6 +292,12 @@
   margin: 60px 0 40px 0;
 }
 
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
@@ -310,11 +316,6 @@
   font-weight: normal;
 }
 
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
@@ -323,16 +324,9 @@
 }
 
 .footer__column-links {
-  display: flex;
-  flex-direction: column;
   list-style: none;
   margin: 20px 0 16px 0;
   padding: 0;
-}
-
-.footer__column_content_social {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__column-link {
