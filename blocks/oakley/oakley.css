@@ -5,7 +5,5 @@
   align-items: center;
   margin: auto;
   padding-top: 160px;
-  position: relative;
-  top: -60px;
-  z-index: -1;
+  margin-top: -50px;
 }

@@ -1,3 +1,4 @@
 .table_theme_dark {
   margin: 0;
+  z-index: 2;
 }

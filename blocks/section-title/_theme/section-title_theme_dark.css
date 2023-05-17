@@ -1,5 +1,4 @@
 .section-title_theme_dark {
-  width: 60%;
   color: white;
-  margin: 0;
+  z-index: 2;
 }

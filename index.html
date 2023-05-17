@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="pages/index.css">
     <title>Научиться учиться</title>
   </head>
   <body>
@@ -11,25 +11,25 @@
       <header class="header">  <!--Блок header-->
         <img src="./images/logo_place_header.svg" alt="Яндекс Практикум" class="logo logo_place_header">
         <h1 class="header__title">Научиться учиться</h1>
-        <h2 class="header__subtitle">
-          Какие современные и эффективные подходы к 
+        <p class="header__subtitle">
+          Какие современные и эффективные подходы к
           обучению вы можете использовать в своей жизни?
           <a href="#" target="_blank" class="header__link">
             Узнать →
           </a>
-        </h2>
-        <img src="./images/header-image.png" alt="Опять двойка!" class="header__main-illustration"> 
+        </p>
+        <img src="./images/header-image.png" alt="Опять двойка!" class="header__main-illustration">
         <div class="header__square-pic rotation"></div>  <!--Квадрат на заднем фоне, описан в style.css-->
       </header>  <!--/Блок header-->
       <main class="content">  <!--Блок content-->
-        <section class="description">  <!--Блок description-->
-          <div class="two-columns">
+        <section class="description" aria-label="Описание главных проблем в обучении">  <!--Блок description-->
+          <article class="two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
             <div class="two-columns__main-text">
               <p class="two-columns__paragraph">
-                Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. 
-                Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, 
-                чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка 
+                Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
+                Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи,
+                чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка
                 быстро выветривается и не приносит пользы.
               </p>
               <p class="two-columns__paragraph">
@@ -39,13 +39,13 @@
                 Что с этим делать?
               </p>
               <p class="two-columns__paragraph">
-                Конкретные техники и упражнения 
-                помогают изменить подход к обучению, 
+                Конкретные техники и упражнения
+                помогают изменить подход к обучению,
                 сделать его эффективным и захватывающим.
                 Эти же техники применяются на примере обучения в Практикуме.
               </p>
             </div>
-          </div>
+          </article>
         </section>  <!--/Блок description-->
         <section class="techniques">  <!--Блок techniques-->
           <h2 class="section-title">Техники обучения</h2>
@@ -92,22 +92,22 @@
           <h2 class="section-title">Видео нa TED</h2>
           <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
           <div class="video__iframes">
-            <iframe width="515" height="316" class="video__iframe" 
-              src="https://www.youtube.com/embed/arj7oStGLkU" 
-              title="YouTube video player" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            <iframe class="video__iframe"
+              src="https://www.youtube.com/embed/arj7oStGLkU"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen>
             </iframe>
-            <iframe width="515" height="316" class="video__iframe" 
-              src="https://www.youtube.com/embed/5MgBikgcWnY" 
-              title="YouTube video player" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            <iframe class="video__iframe"
+              src="https://www.youtube.com/embed/5MgBikgcWnY"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen>
             </iframe>
           </div>
         </section>  <!--/Блок video-->
-        <section class="oakley">  <!--Блок oakley-->
-          <div class="two-columns">
+        <section class="oakley" aria-label="Барбара Оакли">  <!--Блок oakley-->
+          <article class="two-columns">
             <h2 class="two-columns__brief">История Барбары Оакли.</h2>
             <div class="two-columns__main-text">
               <p class="two-columns__paragraph">
@@ -122,7 +122,7 @@
                 трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
               </p>
             </div>
-          </div>
+          </article>
         </section>  <!--/Блок oakley-->
         <section class="feynman">  <!--Блок feynman-->
           <h2 class="feynman__title">Метод Фейнмана</h2>
@@ -149,14 +149,14 @@
             <li class="table__cell">
               <h4 class="table__heading">500 триллионов</h4>
               <p class="table__text">
-                Число ответственных за обучение нервных 
+                Число ответственных за обучение нервных
                 синапсов у взрослого человека
               </p>
             </li>
             <li class="table__cell">
               <h4 class="table__heading">420 миллионов</h4>
               <p class="table__text">
-                Число взрослых людей моложе 25 лет, 
+                Число взрослых людей моложе 25 лет,
                 не имеющих образования для трудоустройства
               </p>
               <p class="table__text">Всемирный Банк, 2017</p>
@@ -179,16 +179,18 @@
           <div class="khan__container">
             <h2 class="khan__author">Салман Хан</h2>
             <h3 class="khan__title">Весь мир — школа</h3>
-            <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс
-              обучения миллионов студентов по всему миру. Книгу «Весь мир —
-              школа» нужно прочитать всем, кто занимается образованием — так
-              учащиеся повсюду смогут получить навыки и знания, которые приносят
-              успех в школе, карьере и жизни.</p>
+            <blockquote class="khan__quote">
+              Страсть и новаторство Сала Хана меняют процесс обучения
+              миллионов студентов по всему миру. Книгу «Весь мир — школа»
+              нужно прочитать всем, кто занимается образованием — так
+              учащиеся повсюду смогут получить навыки и знания, которые приносят успех
+              в школе, карьере и жизни.
+            </blockquote>
             <h4 class="khan__quote-author">Джордж Лукас</h4>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
               <img src="./images/khan-book.jpg" alt="Книга - Весь мир школа" class="khan__book-pic">
-              <a href="#" class="khan__buy-link">Купить книгу →</a>
+              <a href="#" class="khan__buy-link" target="_blank">Купить книгу →</a>
             </div>
           </div>
         </section>  <!--/Блок khan-->
@@ -245,14 +247,30 @@
         <section class="resources">  <!--Блок resources-->
           <h2 class="section-title">Полезные ресурсы</h2>
           <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
-          <div class="resources__logo-zone">
-            <a href="#" class="resources__link"><img src="./images/logo/resources-arzamas.svg" alt="Арзамас"></a>
-            <a href="#" class="resources__link"><img src="./images/logo/resources-n1.svg" alt="н + 1"></a>
-            <a href="#" class="resources__link"><img src="./images/logo/resources-strelka.svg" alt="Стрелка"></a>
-            <a href="#" class="resources__link"><img src="./images/logo/resources-polka.svg" alt="Полка"></a>
-          </div>
+          <ul class="resources__logo-zone">
+            <li>
+              <a href="#" class="resources__link" target="_blank">
+                <img src="./images/logo/resources-arzamas.svg" class="resources__logo" alt="Арзамас">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="resources__link" target="_blank">
+                <img src="./images/logo/resources-n1.svg" class="resources__logo" alt="Н + 1">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="resources__link" target="_blank">
+                <img src="./images/logo/resources-strelka.svg" class="resources__logo" alt="Стрелка">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="resources__link" target="_blank">
+                <img src="./images/logo/resources-polka.svg" class="resources__logo" alt="Полка">
+              </a>
+            </li>
+          </ul>
         </section>  <!--/Блок resources-->
-      </main>  <!--Блок description-->
+      </main>  <!--/Блок description-->
       <footer class="footer">  <!--Блок footer-->
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
@@ -267,26 +285,26 @@
               <li><a href="#" class="footer__column-link">Наставники</a></li>
             </ul>
           </nav>
-          <div class="footer__column footer__column_content_social ">
+          <nav class="footer__column footer__column_content_social ">
               <h3 class="footer__column-heading">Соцсети</h3>
               <ul class="footer__column-links">
                 <li>
-                  <a href="#" class="footer__column-link">
+                  <a href="#" class="footer__column-link" target="_blank">
                     <img src="./images/youtube-icon.svg" alt="Иконка Ютьуб" class="footer__social-icon">YouTube
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="footer__column-link">
+                  <a href="#" class="footer__column-link" target="_blank">
                     <img src="./images/vk_color_white.svg" alt="Иконка ВКонтакте" class="footer__social-icon">ВКонтакте
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="footer__column-link">
+                  <a href="#" class="footer__column-link" target="_blank">
                     <img src="./images/tiktok-icon.svg" alt="Иконка Тик Ток" class="footer__social-icon">TikTok
                   </a>
                 </li>
               </ul>
-          </div>
+          </nav>
         </div>
       </footer>  <!--/Блок footer-->
     </div>  <!--/Блок page-->
