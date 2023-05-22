@@ -3,10 +3,14 @@
   justify-content: center;
   width: 270px;
   height: 38px;
-  filter: opacity(100%);
+  -webkit-filter: opacity(100%);
+          filter: opacity(100%);
+  transition: -webkit-filter 0.15s linear;
   transition: filter 0.15s linear;
+  transition: filter 0.15s linear, -webkit-filter 0.15s linear;
 }
 
 .resources__link:hover {
-  filter: opacity(70%);
+  -webkit-filter: opacity(70%);
+          filter: opacity(70%);
 }

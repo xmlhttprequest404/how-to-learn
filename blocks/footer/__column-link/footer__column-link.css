@@ -4,11 +4,14 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  filter: opacity(100%);
+  -webkit-filter: opacity(100%);
+          filter: opacity(100%);
+  transition: -webkit-filter 0.15s linear;
   transition: filter 0.15s linear;
+  transition: filter 0.15s linear, -webkit-filter 0.15s linear;
 }
 
 .footer__column-link:hover {
-  filter: opacity(70%);
+  -webkit-filter: opacity(70%);
+          filter: opacity(70%);
 }
-

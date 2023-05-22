@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Jost";
+  src: url(../fonts/Jost-Regular.ttf) format('truetype'),
+       url(../fonts/Jost-Regular.woff2) format('woff2'),
+       url(../fonts/Jost-Regular.woff) format('woff'),
+       url(../fonts/Jost-Regular.eot) format('eot');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url(../fonts/Jost-Bold.ttf) format('truetype'),
+       url(../fonts/Jost-Bold.woff2) format('woff2'),
+       url(../fonts/Jost-Bold.woff) format('woff'),
+       url(../fonts/Jost-Bold.eot) format('eot');
+  font-weight: bold;
+}
