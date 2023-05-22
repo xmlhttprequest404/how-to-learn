@@ -1,6 +1,14 @@
 .table__heading {
+<<<<<<< HEAD
     margin: 0 0 20px 0;
     line-height: 1.15;
     font-size: 24px;
     font-weight: 600;
   }
+=======
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+>>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91

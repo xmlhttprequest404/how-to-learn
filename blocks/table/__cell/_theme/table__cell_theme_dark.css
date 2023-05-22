@@ -1,6 +1,14 @@
 .table__cell_theme_dark {
+<<<<<<< HEAD
     width: 200px;
     color: white;
     margin-right: 0;
     margin-top: 80px;
   }
+=======
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+>>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91

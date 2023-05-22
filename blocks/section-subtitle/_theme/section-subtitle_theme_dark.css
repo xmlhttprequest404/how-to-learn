@@ -1,5 +1,11 @@
 .section-subtitle_theme_dark {
+<<<<<<< HEAD
     width: 60%;
     color: white;
     margin-top: 20px;
   }
+=======
+  color: white;
+  z-index: 2;
+}
+>>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91

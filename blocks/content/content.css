@@ -1,4 +1,10 @@
 .content {
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
   }
+=======
+  display: flex;
+  flex-direction: column;
+}
+>>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91

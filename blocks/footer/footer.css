@@ -1,7 +1,18 @@
 .footer {
+<<<<<<< HEAD
     background-color: var(--background-color_dark);
     color: white;
     display: flex;
     justify-content: center;
     min-height: 350px;
   }
+=======
+  background-color: var(--background-color_dark);
+  color: white;
+  display: flex;
+  justify-content: center;
+  min-height: 350px;
+  padding: 60px 0 40px 0;
+  box-sizing: border-box;
+}
+>>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91

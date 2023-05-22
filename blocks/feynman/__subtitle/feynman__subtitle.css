@@ -1,7 +1,16 @@
 .feynman__subtitle {
+<<<<<<< HEAD
     margin: 70px auto 0 auto;
     text-align: center;
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
   }
+=======
+  margin: 70px auto 0 auto;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+>>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91
