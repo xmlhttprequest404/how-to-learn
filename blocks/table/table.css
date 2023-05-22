@@ -1,14 +1,4 @@
 .table {
-<<<<<<< HEAD
-    width: 1100px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-=======
   width: 1100px;
   display: flex;
   justify-content: space-between;
@@ -17,4 +7,3 @@
   padding: 0;
   list-style: none;
 }
->>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91

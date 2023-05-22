@@ -1,15 +1,4 @@
 .header {
-<<<<<<< HEAD
-    height: 100vh;
-    min-height: 600px;
-    max-height: 756px;
-    position: relative;
-    background-color: var(--background-color_white);
-    z-index: 0;
-    color: black;
-    display: flex;
-  }
-=======
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -20,4 +9,3 @@
   display: flex;
   overflow: hidden;
 }
->>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91

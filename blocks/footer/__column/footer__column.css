@@ -1,12 +1,5 @@
 .footer__column {
-<<<<<<< HEAD
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-=======
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
->>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91

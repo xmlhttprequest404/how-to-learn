@@ -1,14 +1,6 @@
 .digits {
-<<<<<<< HEAD
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 100px 0;
-  }
-=======
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 100px 0;
 }
->>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91

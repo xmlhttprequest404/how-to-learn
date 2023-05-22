@@ -1,16 +1,7 @@
 .two-columns__paragraph {
-<<<<<<< HEAD
-    margin: 0 auto 30px auto;
-  }
-  
-.two-columns__paragraph:last-child {
-    margin: 0;
-  }
-=======
   margin: 0 auto 30px auto;
 }
-  
+
 .two-columns__paragraph:last-child {
   margin: 0;
 }
->>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91

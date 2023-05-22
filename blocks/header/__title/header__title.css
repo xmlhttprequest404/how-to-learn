@@ -1,16 +1,4 @@
 .header__title {
-<<<<<<< HEAD
-    width: 730px;
-    align-self: center;
-    margin: 0;
-    line-height: 96px;
-    font-size: 102px;
-    font-weight: 600;
-    position: absolute;
-    left: 64px;
-    z-index: 3;
-  }
-=======
   width: 730px;
   align-self: center;
   margin: 0;
@@ -20,4 +8,3 @@
   margin-left: 64px;
   z-index: 3;
 }
->>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91

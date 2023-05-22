@@ -1,14 +1,4 @@
 .header__square-pic {
-<<<<<<< HEAD
-    height: 568px;
-    width: 568px;
-    background-color: var(--elements-color);
-    position: absolute;
-    right: 0;
-    top: 64px;
-    z-index: 1;
-  }
-=======
   height: 568px;
   width: 568px;
   background-color: var(--elements-color);
@@ -17,4 +7,3 @@
   top: 64px;
   z-index: 1;
 }
->>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91

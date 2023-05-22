@@ -1,9 +1,4 @@
 .header__link {
-<<<<<<< HEAD
-    text-decoration: none;
-    color: var(--elements-color);
-  }
-=======
   text-decoration: none;
   color: var(--elements-color);
   filter: opacity(100%);
@@ -13,4 +8,3 @@
 .header__link:hover {
   filter: opacity(70%);
 }
->>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91

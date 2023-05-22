@@ -1,16 +1,4 @@
 .header__subtitle {
-<<<<<<< HEAD
-    width: 380px;
-    margin: 0;
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: normal;
-    position: absolute;
-    bottom: 30px;
-    left: 64px;
-    z-index: 3;
-  }
-=======
   width: 388px;
   margin: 0;
   line-height: 25px;
@@ -21,4 +9,3 @@
   left: 64px;
   z-index: 3;
 }
->>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91

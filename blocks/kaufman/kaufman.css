@@ -1,14 +1,4 @@
 .kaufman {
-<<<<<<< HEAD
-    background-color: var(--background-color_dark);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
-    z-index: -2;
-  }
-=======
   background-color: var(--background-color_dark);
   display: flex;
   flex-direction: column;
@@ -18,4 +8,3 @@
   position: relative;
   z-index: 2;
 }
->>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91

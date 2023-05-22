@@ -1,13 +1,4 @@
 .header__main-illustration {
-<<<<<<< HEAD
-    width: 765px;
-    height: 608px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-  }
-=======
   width: 765px;
   height: 608px;
   position: absolute;
@@ -16,4 +7,3 @@
   z-index: 2;
   object-fit: cover;
 }
->>>>>>> 422615629a8d26c4aefd36d26c4edc9e37b86d91
