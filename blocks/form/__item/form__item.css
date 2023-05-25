@@ -1,0 +1,30 @@
+.form__item {
+  width: 80%;
+  height: 200px;
+  padding: 10px;
+}
+
+.form__item::-webkit-input-placeholder {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.form__item::-moz-placeholder {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.form__item:-ms-input-placeholder {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.form__item::-ms-input-placeholder {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.form__item::placeholder {
+  font-size: 24px;
+  font-weight: normal;
+}

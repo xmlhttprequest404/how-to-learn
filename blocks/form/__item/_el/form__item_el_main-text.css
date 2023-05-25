@@ -1,0 +1,9 @@
+.form__item_el_main-text {
+  margin: 0;
+  padding: 20px;
+  border-color: grey;
+}
+
+.form__item_el_main-text:focus {
+  outline-color: var(--elements-color);
+}
